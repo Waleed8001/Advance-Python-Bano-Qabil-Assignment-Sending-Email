@@ -31,9 +31,6 @@ def email_send():
     for i,u in g.iterrows():
         if u["Day"] == f:
             Email = u["Email"]
-            '''for t,p in h.iterrows():
-                Subject = "Todays Quotes"
-                Message = Message + p["Quotes"]'''
             send_email(Email,Subject,Message)
 
 if __name__=="__main__":
