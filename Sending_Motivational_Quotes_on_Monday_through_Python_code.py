@@ -9,7 +9,7 @@ def send_email(Email,Subject,Message):
     try:
         API = 'smtp.gmail.com'
         Gmail = 'waleedkamal801@gmail.com'
-        Password = 'kuep ufnk icfr pmwi'
+        Password = 'My-Password'
         Port = 587
         mail =smtplib.SMTP(API,Port)
         mail.starttls()
